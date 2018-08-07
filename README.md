@@ -1,0 +1,2 @@
+# platformDesk
+platformDesk static
