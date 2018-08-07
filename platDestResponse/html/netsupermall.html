@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://127.0.0.1:8080/commonstatic/static/base/css3.0/base_WXorange.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8080/commonstatic/static/base/en-iconfont3.0/iconfont.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap-theme.css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/fullpage.css">
+    <link rel="stylesheet" href="../css/pdcommon.css">
+    <link rel="stylesheet" href="../css/enOperate.css">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../jsdist/bootstrap.min.js"></script>
+    <script src="../jsdist/fullPage.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../jsdist/pdcommon.js"></script>
+    <!-- <script src="../jsdist/bundle.js"></script> -->
+
+    <title>网格超市</title>
+</head>
+
+<body>
+    <div class="pd-index pr">
+        <!-- 导航部分 -->
+        <div class="pd-index-nav">
+            <!-- navbar-fixed-top -->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid pd-headTop">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="../images/logoweb.png" alt="" class="logoImg">
+                        </a>
+                        <a href="javascript:;" class="index-top_user">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">首页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品与服务
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Something else here</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="#">Separated link</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="#">One more separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">加盟入驻</a>
+                            </li>
+                            <li>
+                                <a href="#">应用市场</a>
+                            </li>
+                            <li>
+                                <a href="#">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="#">App下载</a>
+                            </li>
+                            <li>
+                                <a href="#">新闻</a>
+                            </li>
+
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新奥易彩科技有限公司
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Something else here</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="#">Separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">退出</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <!-- 轮播图部分 -->
+        <div class="indexSliderTop eno-netsupermall">
+            <div id="fullpage-indexTop">
+                <div class="pd-slide-ul section fp-auto-height">
+                    <div class="pd-slide-li slide netsm-slide01">
+                        <div class="slideLink">
+                            <!-- <div class="col-sm-2"></div> -->
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <!-- <div class="col-sm-2 col-md-2"></div> -->
+                                <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 slide01Txt01">
+                                    <p class="f40 fc-ff">e购超市</p>
+                                    <p class="f16 fc-ff mt10">本地仓储中心，现货直供服务</p>
+                                    <p class="f16 fc-ff mt10">建设资源共享产业模式</p>
+                                    <div>
+                                        <a href="javascript:;" class="btn-circle-xl tc mt20">进入超市</a>
+                                        <a href="javascript:;" class="btn-circle-xl tc mt20 ml20">加盟入驻</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <ul class="netsm-slidetxtul">
+                                        <li class="netsm-slidetxtli">
+                                            <div class="netsm-slidetxtli-tit">覆盖省份</div>
+                                            <div class="netsm-slidetxtli-con">
+                                                <span class="netsm-slidetxtbig">13</span>
+                                                <span class="netsm-slidetxtsm">个</span>
+                                            </div>
+                                        </li>
+                                        <li class="netsm-slidetxtli">
+                                            <div class="netsm-slidetxtli-tit">开通城市</div>
+                                            <div class="netsm-slidetxtli-con">
+                                                <span class="netsm-slidetxtbig">13</span>
+                                                <span class="netsm-slidetxtsm">个</span>
+                                            </div>
+                                        </li>
+                                        <li class="netsm-slidetxtli">
+                                            <div class="netsm-slidetxtli-tit">仓库数量</div>
+                                            <div class="netsm-slidetxtli-con">
+                                                <span class="netsm-slidetxtbig">13</span>
+                                                <span class="netsm-slidetxtsm">个</span>
+                                            </div>
+                                        </li>
+                                        <li class="netsm-slidetxtli">
+                                            <div class="netsm-slidetxtli-tit">加盟合伙人数量</div>
+                                            <div class="netsm-slidetxtli-con">
+                                                <span class="netsm-slidetxtbig">13</span>
+                                                <span class="netsm-slidetxtsm">个</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 主体部分 -->
+        <div class="pd-mainBody eno-netsupermall">
+
+            <div class="eno-body">
+                <!-- e购超市服务网络 -->
+                <div class="eno-succase">
+                    <div class="tc">
+                        <span class="eno-succase-tit">e购超市服务网络</span>
+                    </div>
+                    <div class="tc mt30">
+                        <p class="eno-maindes">e购超市是全方位多维的综合服务体系</p>
+                        <p class="eno-maindes">覆盖多达13个省份，43个城市，拥有10万多平方米的库房</p>
+                        <p class="eno-maindes">上线物资品类8000+</p>
+                        <p class="eno-maindes">入驻供应商800多家，并且快速增长</p>
+                        <p class="eno-maindes">物资成交额高达10亿多元</p>
+                    </div>
+                </div>
+
+                <!-- 服务特色 -->
+                <div class="eno-succase bg-f7">
+                    <div class="tc">
+                        <span class="eno-succase-tit">服务特色</span>
+                    </div>
+                    <div class="tc mt30">
+                        <div class="eno-netsupermall-serviceul clearfix">
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon01"></span>
+                                </div>
+                                <div>标准流程</div>
+                            </div>
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon02"></span>
+                                </div>
+                                <div>统一规划</div>
+                            </div>
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon03"></span>
+                                </div>
+                                <div>分区存储</div>
+                            </div>
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon04"></span>
+                                </div>
+                                <div>专业工具</div>
+                            </div>
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon05"></span>
+                                </div>
+                                <div>配送中心</div>
+                            </div>
+                            <div class="eno-netsupermall-serviceli col-xs-4 col-sm-4 col-md-2">
+                                <div>
+                                    <span class="eno-serviceicon eno-netsupermall-serviceicon06"></span>
+                                </div>
+                                <div>专业人员</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 为什么要加盟e购超市 -->
+                <div class="eno-succase">
+                        <div class="tc">
+                            <span class="eno-succase-tit">为什么要加盟e购超市</span>
+                        </div>
+                        <div class="tc mt30">
+                            <div class="eno-netsupermall-joinul clearfix">
+                                <div class="eno-netsupermall-joinli col-xs-4 col-sm-4 col-md-2">
+                                    <div>
+                                        <span class="eno-joinicon eno-joinicon01"></span>
+                                    </div>
+                                    <div>标准流程</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- 底部部分    -->
+            <div class="index-footer">
+                <div class="index-footerCon clearfix">
+                    <div class="index-midWrap">
+                        <div class="pd-index-friend clearfix">
+                            <div class="pd-index-friendLink  col-xs-12 col-sm-12 col-md-8">
+                                <dl class="clearfix pd-footer-proservice pd-footer-item col-xs-12 col-sm-12 col-md-6">
+                                    <dt class="pd-friendLink-dt">
+                                        产品与服务
+                                        <span class="pd-friendLink-show">+</span>
+                                    </dt>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        质量数据银行
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        物料主数据门户
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        e购超市
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        商城SAAS服务
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        大型物资交易平台
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        e购超市
+                                    </dd>
+                                    <dd class="pd-friendLink-dd col-xs-12 col-sm-12 col-md-5">
+                                        B2B交易服务
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix pd-footer-item col-xs-12 col-sm-12 col-md-3">
+                                    <dt class="pd-friendLink-dt">
+                                        加盟入驻
+                                        <span class="pd-friendLink-show">+</span>
+                                    </dt>
+                                    <dd class="pd-friendLink-dd">
+                                        加盟e购超市
+                                    </dd>
+                                    <dd class="pd-friendLink-dd">
+                                        入驻阳光e购商城
+                                    </dd>
+                                </dl>
+                                <dl class="clearfix pd-footer-item col-xs-12 col-sm-12 col-md-3">
+                                    <dt class="pd-friendLink-dt">
+                                        App下载
+                                        <span class="pd-friendLink-show">+</span>
+                                    </dt>
+                                    <dd class="pd-friendLink-dd">
+                                        阳光e购App
+                                    </dd>
+                                    <dd class="pd-friendLink-dd">
+                                        阳光智库
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="pd-index-friendcall col-xs-12 col-sm-12 col-md-4">
+                                <div class="f36 pd-friendcall-num">0316-2597812</div>
+                                <div class="pd-friendcall-kefu">咨询电话(周一至周五8:00～18:00)</div>
+                            </div>
+
+                        </div>
+                        <div class="index-copyright">
+                            <div class="index-copyright-con">
+                                <div class="col-xs-12 col-sm-12 col-md-8">
+                                    <div>
+                                        <div class="col-xs-12 col-sm-12 col-md-4 footer-logopart">
+                                            <em class="footer-logo"></em> 阳光e购云服务平台</div>
+                                        <div class="col-xs-12 col-sm-12 col-md-8 footer-logotxt">
+                                            Copyright © 2018 新奥阳光易采科技有限公司</div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                    <ul class="pd-footer-otherul">
+                                        <li>备案号 京ICP证161357号</li>
+                                        <li>法律信息</li>
+                                        <li>关于我们</li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+</body>
+
+</html>

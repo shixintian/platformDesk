@@ -1,0 +1,1 @@
+import '../sass/index.scss';//使用require导入css文件
