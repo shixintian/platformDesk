@@ -1,15 +1,20 @@
 .eno-slide01 {
-    background: url(../images/eno-slide01.png);
+    background: url(../images/eno-slide01.png) no-repeat center center;
     background-size: cover;
 }
 
 .ms-slide01 {
-    background: url(../images/ms-slide01.png);
+    background: url(../images/ms-slide01.png) no-repeat center center;
     background-size: cover;
 }
 
 .netsm-slide01 {
-    background: url(../images/netsm-slide01.png);
+    background: url(../images/netsm-slide01.png) no-repeat center center;
+    background-size: cover;
+}
+
+.mtcenter-slide01 {
+    background: url(../images/mtcenter-slide01.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -65,6 +70,7 @@
 
 .eno-maindes {
     font-size: 18px;
+    line-height: 28px;
 }
 
 .btn-outline-xxl {
@@ -83,9 +89,17 @@
     padding-top: 180px;
 }
 
+.eno-mallsass .slide01Txt01 {
+    padding-top: 125px;
+}
+
 .eno-netsupermall .slide01Txt01 {
     padding-top: 125px;
     text-align: left;
+}
+
+.eno-materialCenter .slide01Txt01 {
+    padding-top: 140px;
 }
 
 .eno-netsupermall .eno-succase-tit {
@@ -129,7 +143,9 @@
     margin: 0 auto;
 }
 
-.eno-netsupermall-serviceul .eno-netsupermall-serviceli {}
+.eno-netsupermall-serviceul .eno-netsupermall-serviceli {
+    margin-bottom: 20px;
+}
 
 .eno-netsupermall-serviceicon01 {
     background-position: -60px -1774px;
@@ -153,6 +169,92 @@
 
 .eno-netsupermall-serviceicon06 {
     background-position: -881px -1774px;
+}
+
+.eno-netsupermall-joinli {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.eno-joinicon {
+    width: 68px;
+    height: 60px;
+    display: inline-block;
+    background: url("../images/pd-deskicon.png") no-repeat;
+    background-size: 1048px 2589px;
+}
+
+.eno-joinicon01 {
+    background-position: -51px -1890px;
+}
+
+.eno-joinicon02 {
+    background-position: -197px -1890px;
+}
+
+.eno-joinicon03 {
+    background-position: -353px -1890px;
+}
+
+.eno-joinicon04 {
+    background-position: -501px -1890px;
+}
+
+.eno-joinicontitbig {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.eno-joinicontitsm {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.eno-netsupermall-blank {
+    padding: 50px 0;
+    background: url(../images/eno-netmallblank.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.eno-mtcenter-slidertit {
+    font-size: 48px;
+    color: #fff;
+}
+
+.eno-mtcenter-slidertitsm {
+    font-size: 20px;
+    color: #fff;
+}
+
+.eno-mtcenterCode {
+    padding: 60px 0;
+}
+
+.eno-joinIndexbox {
+    padding: 130px 0 100px 0;
+    background-image: linear-gradient(167deg, #FF6915 50%, #FFB84B 100%);
+}
+
+.eno-joinPart {
+    text-align: center;
+}
+
+.eno-egojoinpic {
+    width: 375px;
+    height: 244px;
+}
+
+.eno-egojoinindextit {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.eno-joinIndexbox-tit {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
 }
 
 .pd-slide-ul {
@@ -260,19 +362,59 @@
     .netsm-slidetxtsm {
         font-size: 12px
     }
-    @media (min-width: 768px) and (max-width:992px) {
-        .pd-imgTxtsimple {
-            padding: 50px 0;
-        }
-        .pd-imgTxtsimple-txttit {
-            margin-top: 0;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .pd-imgTxtsimple-txtcon {
-            font-size: 14px;
-            margin-bottom: 40px;
-        }
+    .eno-netsupermall-joinli {
+        margin-bottom: 80px;
+    }
+    .eno-joinIndexbox-tit {
+        font-size: 26px;
+    }
+    .eno-egojoinpic{
+        width: 233px;
+        height: 165px;
+    }
+    .eno-egojoinindextit{
+        font-size: 14px;
+    }
+    .eno-joinIndexbox{
+        height: 430px;
+    }
+    .eno-joinPart-down{
+        margin-top: 80px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .pd-imgTxtsimple {
+        padding: 50px 0;
+    }
+    .pd-imgTxtsimple-txttit {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pd-imgTxtsimple-txtcon {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .eno-netsupermall-joinli {
+        margin-bottom: 80px;
+    }
+    .eno-joinIndexbox-tit {
+        font-size: 26px;
+    }
+    .eno-egojoinindextit{
+        font-size: 14px;
+    }
+    .eno-egojoinpic{
+        width: 233px;
+        height: 165px;
+    }
+    .eno-joinIndexbox{
+        height: 430px;
+    }
+    .eno-joinPart-down{
+        margin-top: 80px;
     }
 }
 

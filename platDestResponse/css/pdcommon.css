@@ -162,6 +162,17 @@ body {
     font-size: 14px;
     
 }
+.btn-circle-grey-xl {
+    height: 40px;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #3B545A;
+    display: inline-block;
+    border-radius: 20px;
+    line-height: 22px;
+    font-size: 14px;
+    
+}
 
 .btn-circle-xl:hover {
     cursor: pointer;
@@ -183,6 +194,10 @@ body {
 
 .index-midWrap {
     width: 90%;
+    margin: 0 auto;
+}
+.index-maxw{
+    max-width: 1000px;
     margin: 0 auto;
 }
 
